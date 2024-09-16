@@ -1,11 +1,11 @@
 const hre = require("hardhat");
 const fxRootContractABI = require("../fxRootContractABI.json");
-const tokenContractJSON = require("../artifacts/contracts/StreetNft.sol/StreetNft.json");
+const tokenContractJSON = require("../artifacts/contracts/UrbanNFT.sol/UrbanNFT.json");
 
-const tokenAddress = "0x0dFf840417EEE74102207d838e0606474Ef4D3e4";
+const tokenAddress = "0x228a2c4DCBfcb83c74a4eD0E6AfE5a9025B2D03a";
 const tokenABI = tokenContractJSON.abi;
 const FxERC721RootTunnel = "0x9E688939Cb5d484e401933D850207D6750852053";
-const walletAddress = "0x843E8b1116C2AC092CC1d52ED9f2dc2C7bF23476";
+const walletAddress = "0x6CA4e832CEA6a89Af118D5d72032Fea8b231a872";
 
 async function main() {
   const tokenContract = await hre.ethers.getContractAt(tokenABI, tokenAddress);
