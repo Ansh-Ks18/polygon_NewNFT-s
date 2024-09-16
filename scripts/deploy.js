@@ -8,7 +8,7 @@ const hre = require("hardhat");
 
 async function main() {
 
-  const token = await hre.ethers.deployContract("StreetNft");
+  const token = await hre.ethers.deployContract("UrbanNFT");
 
   console.log("Token address:", await token.getAddress());
 }
