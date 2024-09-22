@@ -6,6 +6,11 @@ Hello and welcome! This project demonstrates the batch minting and cross-chain b
 
 This project highlights how to bridge NFTs across different networks, specifically between Sepolia and Amoy, given the deprecation of the Goerli and Mumbai testnets. It leverages the **`UrbanNFT.sol`** contract to batch mint multiple NFTs and bridge them through the **FX Portal**.
 
+## 🎥 Video Tutorial
+
+For a detailed video walkthrough, watch the [video](https://drive.google.com/file/d/1XhCAEJy3uBAeomofZFNBVz8ksHZ1Sl2Q/view?usp=sharing).
+
+
 ### Key Features:
 
 1. **Batch Minting with ERC721A**: Mint multiple NFTs in one transaction using optimized gas efficiency.
